@@ -1,6 +1,12 @@
 # ExaGear-SU
 Exagear Windows Emulator Decompiled Source Code & Add SU/ROOT
 
+Watch
+
+https://youtu.be/DNg_fCgSKpA
+
+https://youtu.be/F6Eqtvwq1vs
+
 ***Note: Only Smali Codes were Decompiled!***
 
 Original Idea by GFOXSH
