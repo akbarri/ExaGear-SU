@@ -3,6 +3,8 @@ Exagear Windows Emulator Decompiled Source Code & Add SU/ROOT
 
 Watch
 
+https://youtu.be/OTEvzcuRwpo
+
 https://youtu.be/DNg_fCgSKpA
 
 https://youtu.be/F6Eqtvwq1vs
