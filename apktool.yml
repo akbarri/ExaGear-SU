@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: ExaGear-SU_302.apk
+apkFileName: 304.apk
 compressionType: false
 doNotCompress:
 - png
@@ -22,7 +22,7 @@ usesFramework:
   ids:
   - 1
   tag: null
-version: 2.4.1
+version: 2.5.0
 versionInfo:
-  versionCode: '32'
-  versionName: 3.0.2
+  versionCode: '33'
+  versionName: 3.0.3

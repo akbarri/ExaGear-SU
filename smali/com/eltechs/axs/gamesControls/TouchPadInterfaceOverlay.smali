@@ -551,7 +551,7 @@
     .line 226
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_RETURN:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "Ren"
+    const-string v1, "Enter"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/TouchPadInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -562,7 +562,7 @@
     .line 227
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_SPACE:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "Spa"
+    const-string v1, "Space"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/TouchPadInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -584,7 +584,7 @@
     .line 229
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_BACKSPACE:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "Bap"
+    const-string v1, "Bksp"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/TouchPadInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 

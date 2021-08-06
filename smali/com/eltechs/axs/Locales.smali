@@ -141,7 +141,7 @@
     goto :goto_1
 
     :sswitch_1
-    const-string v1, "spa"
+    const-string v1, "SPACE"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

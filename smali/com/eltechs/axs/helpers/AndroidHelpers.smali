@@ -232,14 +232,104 @@
 .end method
 
 .method public static getMainSDCard()Ljava/io/File;
-    .locals 1
+    .locals 10
 
-    .line 84
+    .prologue
+    .line 27
+    invoke-static {}, Lcom/eltechs/axs/Globals;->getAppContext()Landroid/content/Context;
+
+    move-result-object v5
+
+    const/4 v6, 0x0
+
+    check-cast v6, Ljava/lang/String;
+
+    invoke-virtual {v5, v6}, Landroid/content/Context;->getExternalFilesDirs(Ljava/lang/String;)[Ljava/io/File;
+
+    move-result-object v5
+
+    move-object v1, v5
+
+    .line 28
+    const/4 v5, 0x1
+
+    move v2, v5
+
+    :goto_0
+    move v5, v2
+
+    move-object v6, v1
+
+    array-length v6, v6
+
+    if-lt v5, v6, :cond_0
+
+    .line 33
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
-    move-result-object v0
+    move-result-object v5
 
+    move-object v0, v5
+
+    :goto_1
     return-object v0
+
+    .line 29
+    :cond_0
+    new-instance v5, Ljava/io/File;
+
+    move-object v9, v5
+
+    move-object v5, v9
+
+    move-object v6, v9
+
+    move-object v7, v1
+
+    move v8, v2
+
+    aget-object v7, v7, v8
+
+    const-string v8, "Download"
+
+    invoke-direct {v6, v7, v8}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    move-object v3, v5
+
+    .line 30
+    move-object v5, v3
+
+    invoke-virtual {v5}, Ljava/io/File;->mkdirs()Z
+
+    move-result v5
+
+    if-nez v5, :cond_1
+
+    move-object v5, v3
+
+    invoke-virtual {v5}, Ljava/io/File;->exists()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_2
+
+    .line 31
+    :cond_1
+    move-object v5, v1
+
+    move v6, v2
+
+    aget-object v5, v5, v6
+
+    move-object v0, v5
+
+    goto :goto_1
+
+    .line 28
+    :cond_2
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static getString(I)Ljava/lang/String;
