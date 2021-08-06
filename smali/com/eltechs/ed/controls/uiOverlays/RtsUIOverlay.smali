@@ -162,7 +162,7 @@
 
     iget v0, p0, Lcom/eltechs/ed/controls/uiOverlays/RtsUIOverlay;->mLeftTbWidth:I
 
-    const-string v1, "Ren"
+    const-string v1, "ENTER"
 
     sget-object v2, Lcom/eltechs/ed/controls/uiOverlays/DefaultUIOverlay$KeyButtonHandlerType;->PRESS_RELEASE:Lcom/eltechs/ed/controls/uiOverlays/DefaultUIOverlay$KeyButtonHandlerType;
 
@@ -179,7 +179,7 @@
 
     iget v0, p0, Lcom/eltechs/ed/controls/uiOverlays/RtsUIOverlay;->mLeftTbWidth:I
 
-    const-string v1, "Spa"
+    const-string v1, "SPACE"
 
     sget-object v2, Lcom/eltechs/ed/controls/uiOverlays/DefaultUIOverlay$KeyButtonHandlerType;->PRESS_RELEASE:Lcom/eltechs/ed/controls/uiOverlays/DefaultUIOverlay$KeyButtonHandlerType;
 
@@ -213,7 +213,7 @@
 
     iget v0, p0, Lcom/eltechs/ed/controls/uiOverlays/RtsUIOverlay;->mLeftTbWidth:I
 
-    const-string v1, "Bap"
+    const-string v1, "BKSP"
 
     sget-object v2, Lcom/eltechs/ed/controls/uiOverlays/DefaultUIOverlay$KeyButtonHandlerType;->PRESS_RELEASE:Lcom/eltechs/ed/controls/uiOverlays/DefaultUIOverlay$KeyButtonHandlerType;
 

@@ -312,7 +312,7 @@
     .line 152
     new-instance v9, Lcom/eltechs/axs/GestureStateMachine/GestureStatePressKey;
 
-    sget-object v10, Lcom/eltechs/axs/KeyCodesX;->KEY_SPACE:Lcom/eltechs/axs/KeyCodesX;
+    sget-object v10, Lcom/eltechs/axs/KeyCodesX;->KEY_NONE:Lcom/eltechs/axs/KeyCodesX;
 
     invoke-direct {v9, v11, v10}, Lcom/eltechs/axs/GestureStateMachine/GestureStatePressKey;-><init>(Lcom/eltechs/axs/GestureStateMachine/GestureContext;Lcom/eltechs/axs/KeyCodesX;)V
 

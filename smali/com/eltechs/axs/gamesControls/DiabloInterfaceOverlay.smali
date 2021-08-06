@@ -144,7 +144,7 @@
     .line 224
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_F:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u5168\u663e"
+    const-string v1, "F"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -155,7 +155,7 @@
     .line 225
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_TAB:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u5730\u56fe"
+    const-string v1, "TAB"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -166,7 +166,7 @@
     .line 226
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_BACKSPACE:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u56de\u57ce"
+    const-string v1, "BKSP"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -177,7 +177,7 @@
     .line 227
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_RETURN:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u56de\u8f66"
+    const-string v1, "ENTER"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -194,7 +194,7 @@
     .line 231
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_INSERT:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u5b54\u9501"
+    const-string v1, "INS"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -205,7 +205,7 @@
     .line 232
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_D:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u56db\u9632"
+    const-string v1, "D"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -216,7 +216,7 @@
     .line 233
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_V:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u4ef7\u683c"
+    const-string v1, "V"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -227,7 +227,7 @@
     .line 234
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_J:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u5e95\u6750"
+    const-string v1, "J"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -238,7 +238,7 @@
     .line 235
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_Q:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u4efb\u52a1"
+    const-string v1, "Q"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -249,7 +249,7 @@
     .line 236
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_P:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u961f\u53cb"
+    const-string v1, "P"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -260,7 +260,7 @@
     .line 237
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_A:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u5c5e\u6027"
+    const-string v1, "A"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -271,7 +271,7 @@
     .line 238
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_T:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u6280\u80fd"
+    const-string v1, "T"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -391,7 +391,7 @@
 
     const/4 v3, 0x0
 
-    const-string v6, "\u5de6\u952e"
+    const-string v6, "L-CLK"
 
     move-object v0, v7
 
@@ -466,7 +466,7 @@
     .line 268
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_W:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u4e3b\u526f"
+    const-string v1, "W"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -477,7 +477,7 @@
     .line 269
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_I:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u88c5\u5907"
+    const-string v1, "I"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 
@@ -488,7 +488,7 @@
     .line 270
     sget-object v0, Lcom/eltechs/axs/KeyCodesX;->KEY_O:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v1, "\u4f63\u5175"
+    const-string v1, "O"
 
     invoke-direct {p0, p1, v0, v1}, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay;->createNormalButton(Landroid/app/Activity;Lcom/eltechs/axs/KeyCodesX;Ljava/lang/String;)Lcom/eltechs/axs/StateButton;
 

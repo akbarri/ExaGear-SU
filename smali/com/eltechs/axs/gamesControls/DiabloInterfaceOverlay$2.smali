@@ -50,7 +50,7 @@
     .line 316
     iget-object p1, p0, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay$2;->val$button:Lcom/eltechs/axs/StateButton;
 
-    const-string p2, "\u5de6\u952e"
+    const-string p2, "L-CLK"
 
     invoke-virtual {p1, p2}, Lcom/eltechs/axs/StateButton;->setText(Ljava/lang/CharSequence;)V
 
@@ -60,7 +60,7 @@
     :cond_0
     iget-object p1, p0, Lcom/eltechs/axs/gamesControls/DiabloInterfaceOverlay$2;->val$button:Lcom/eltechs/axs/StateButton;
 
-    const-string p2, "\u53f3\u952e"
+    const-string p2, "R-CLK"
 
     invoke-virtual {p1, p2}, Lcom/eltechs/axs/StateButton;->setText(Ljava/lang/CharSequence;)V
 

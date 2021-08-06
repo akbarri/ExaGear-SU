@@ -34,7 +34,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const-string v0, "3.0.2"
+    const-string v0, "3.0.4"
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

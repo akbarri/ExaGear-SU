@@ -738,7 +738,7 @@
     .line 287
     sget-object v2, Lcom/eltechs/axs/KeyCodesX;->KEY_RETURN:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v3, "Ren"
+    const-string v3, "ENTER"
 
     invoke-static {p0, p1, v2, p2, v3}, Lcom/eltechs/axs/gamesControls/OxygenInterfaceOverlay;->createLetterButton(Landroid/app/Activity;Lcom/eltechs/axs/xserver/ViewFacade;Lcom/eltechs/axs/KeyCodesX;ILjava/lang/String;)Landroid/widget/Button;
 
@@ -749,7 +749,7 @@
     .line 288
     sget-object v2, Lcom/eltechs/axs/KeyCodesX;->KEY_SPACE:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v3, "Spa"
+    const-string v3, "SPACE"
 
     invoke-static {p0, p1, v2, p2, v3}, Lcom/eltechs/axs/gamesControls/OxygenInterfaceOverlay;->createLetterButton(Landroid/app/Activity;Lcom/eltechs/axs/xserver/ViewFacade;Lcom/eltechs/axs/KeyCodesX;ILjava/lang/String;)Landroid/widget/Button;
 
@@ -771,7 +771,7 @@
     .line 290
     sget-object v2, Lcom/eltechs/axs/KeyCodesX;->KEY_BACKSPACE:Lcom/eltechs/axs/KeyCodesX;
 
-    const-string v3, "Bap"
+    const-string v3, "BKSP"
 
     invoke-static {p0, p1, v2, p2, v3}, Lcom/eltechs/axs/gamesControls/OxygenInterfaceOverlay;->createLetterButton(Landroid/app/Activity;Lcom/eltechs/axs/xserver/ViewFacade;Lcom/eltechs/axs/KeyCodesX;ILjava/lang/String;)Landroid/widget/Button;
 
